@@ -2,3 +2,4 @@
 /log/
 /resource/*.ini
 *.log
+sh.exe.stackdump
