@@ -54,7 +54,7 @@ class FreeProxyList(object):
             self.redis_common.delete('proxy:https')
 
         for proxy in proxy_list:
-            self.redis_common.lpush('proxy:{}'.format(proxy.get('protocol')), json.dumps(proxy))
+            self.redis_common.lpush('proxy:{}'.format(proxy.get('protocol')), json.dumps(proxy,sort_keys=True,separators=(',', ':')))
 
     def main(self):
         proxy_list = self.get_proxy_list()

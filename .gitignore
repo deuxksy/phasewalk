@@ -3,3 +3,4 @@
 /resource/*.ini
 *.log
 sh.exe.stackdump
+*.pyc
