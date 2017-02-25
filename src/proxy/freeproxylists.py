@@ -1,7 +1,7 @@
 from selenium import webdriver
 from commons import log
-from setting import redis_pool_common
-from setting import config
+from settings import redis_pool_common
+from settings import config
 import os
 import logging
 import redis

@@ -1,6 +1,11 @@
-/.idea
+/.idea/
+/build/
+/dist/
+/*.egg-info/
+/.eggs/
 /log/
-/resource/*.ini
+__pycache__
+*.py[cd]
 *.log
+/resource/gen_config.py
 sh.exe.stackdump
-*.pyc
