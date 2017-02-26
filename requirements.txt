@@ -13,7 +13,7 @@ kiki==0.0.2
 multidict==2.1.4
 packaging==16.8
 pickleshare==0.7.4
-pip==9.0.1
+pip-review==0.5.2
 prompt-toolkit==1.0.13
 psycopg2==2.6.2
 pyasn1==0.2.3
@@ -23,7 +23,6 @@ pyparsing==2.1.10
 redis==2.10.5
 requests==2.13.0
 selenium==3.0.2
-setuptools==34.3.0
 simplegeneric==0.8.1
 six==1.10.0
 slacker==0.9.42
@@ -31,6 +30,5 @@ telepot==10.4
 traitlets==4.3.2
 urllib3==1.20
 wcwidth==0.1.7
-wheel==0.29.0
 win-unicode-console==0.5
 yarl==0.9.8
