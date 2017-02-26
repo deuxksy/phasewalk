@@ -7,7 +7,7 @@ import redis
 from kiki.commons import log
 from selenium import webdriver
 
-from phasewalk.settings import config
+from phasewalk.config import config
 from phasewalk.settings import redis_pool_common
 
 logger = log.get_logger(logger=logging.getLogger(os.path.splitext(os.path.basename(__file__))[0]), config=config)
