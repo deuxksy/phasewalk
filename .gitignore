@@ -6,6 +6,8 @@
 /log/
 __pycache__
 *.py[cd]
-*.log
-/resource/gen_config.py
-sh.exe.stackdump
+/phasewalk/config.*.py
+/phasewalk/resources/gen_config.py
+/config/make_config.py
+/config/config.*.py
+/sh.exe.stackdump
