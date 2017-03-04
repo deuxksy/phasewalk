@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-export ZZIZILY_PHASEWALK_CRYPTO=FJnIOiEXv4owpcej6zFrBEGhwRG8oNVI-3yonQu9vN8=
-export ZZIZILY_PHASEWALK_HOME=${HOME}/apps/phasewalk
 export ZZIZILY_PHASEWALK_MODE=prod
+export ZZIZILY_PHASEWALK_CRYPTO=${ZZIZILY_BTA_CRYPTO}
+export ZZIZILY_PHASEWALK_HOME=${HOME}/apps/phasewalk
 
 cd ${ZZIZILY_PHASEWALK_HOME}
 
