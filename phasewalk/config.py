@@ -1,16 +1,18 @@
+# !/usr/bin/env python
+#-*- coding: utf-8 -*-
 config = {
     "db": {
         "redis_db_common": 0,
-        "redis_host": "gAAAAABYuC1Jk_EbBfUgAsmTLk5Q5RAPqdmu8r1QI0DXmY7JSxIJEFo-bVf3Ll1dwK_wi6TBn0RkFB97TefOgX9mujRAyORbs_eHJTJZ45v9FPEwYVUFeOE=",
-        "redis_password": "gAAAAABYuC1JT0NU4FmRhSJ98EVF8zxmN8iq6G67VZcPwe1Hbag8LDbE_y6DhO09VeHCsUaEZkSzppwGiA9xwcPoFTFnLTcNzA==",
-        "redis_port": "gAAAAABYuC1JataO9LiDiLzx3cAwpXbjqtC0CuEwfx9z7B4is9ls4LSRS49lqM66QGqbCumLNJg26blvEptEOu-XCRzUDn1Siw=="
+        "redis_host": "gAAAAABYyaCdhG4MfJzJSs02IdPmFvY0xP4NTSs-NCZqPlg067_x_26KakEHZ7LUHOJM4maR7r56J2Yq2oPmzvgTNvlmKcZru_9NIIn728nwF-I29-wEZ-8=",
+        "redis_password": "gAAAAABYyaCdMNonew-54bawoODBPpe9QN2t39rAcifRZRPr1eC0ocBEi38xzk69mb1HDB2qJ04luByt9Oc9BO5pKBn7UtxzLw==",
+        "redis_port": "gAAAAABYyaCd8fqJKYzROHjM6De7nRk5pj9xq15XE7GxQCskMxjyTtGTG3gwd3FiWJtSObozuQG6kNBRwudDgo1kkWFcCH2-HA=="
     },
     "default": {
         "browser": "phantomjs",
         "chrome_executable_path": "",
         "firefox_executable_path": "",
         "mode": "prod",
-        "phantomjs_executable_path": "/home/pi/apps/phasewalk/resources/phantomjs/2.1.1/phantomjs"
+        "phantomjs_executable_path": "/home/pi/apps/phasewalk/phasewalk/resources/phantomjs/2.1.1/phantomjs"
     },
     "log": {
         "encoding": "utf-8",
