@@ -11,3 +11,4 @@ __pycache__
 /phasewalk/resources/gen_config.py
 /sh.exe.stackdump
 /ghostdriver.log
+.env

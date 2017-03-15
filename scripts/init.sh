@@ -2,6 +2,8 @@
 
 export PATH="${HOME}/.pyenv/bin:$PATH"
 
+cd ${ZZIZILY_PHASEWALK_HOME}
+
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 source `which activate.sh`
