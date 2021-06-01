@@ -28,7 +28,7 @@ six==1.10.0
 slacker==0.9.42
 telepot==10.4
 traitlets==4.3.2
-urllib3==1.20
+urllib3==1.26.5
 wcwidth==0.1.7
 win-unicode-console==0.5
 yarl==0.9.8
